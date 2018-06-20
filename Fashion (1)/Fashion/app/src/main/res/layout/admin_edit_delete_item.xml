@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+
+    <RelativeLayout
+        android:id="@+id/rv_admin_editdelete_item"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/i_admin_home_item"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/grid1"></ImageView>
+
+       <!-- <ImageView
+            android:id="@+id/admin_edit_item"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_toLeftOf="@+id/admin_cancel_item"
+            android:src="@drawable/edit_profile"
+
+            />
+
+        <ImageView
+            android:id="@+id/admin_cancel_item"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:src="@drawable/cancel"
+
+
+            />-->
+    </RelativeLayout>
+
+
+</RelativeLayout>
